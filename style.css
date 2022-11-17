@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+.name {
+  text-align: center;
+  font-size: 56px;
+  margin-bottom: 20px;
+}
+.placeOfResidence {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+.goal {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+.goal span {
+  font-weight: 700;
+}
+.education {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+.education span {
+  font-weight: 700;
+}
+.skills {
+  font-size: 36px;
+  font-weight: 700;
+}
+ol {
+  margin: 20px 0px 30px 0px;
+}
+.skills__item {
+  font-size: 26px;
+}
+.skills__item:not(:first-child) {
+  margin-top: 10px;
+}
+.works {
+}
+.title {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.works__body {
+  display: flex;
+
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.works__item {
+  width: 49%;
+  border: 1px solid black;
+}
+.works__item img {
+  width: 100%;
+}
